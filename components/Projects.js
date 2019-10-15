@@ -12,7 +12,6 @@ const projects = [
     {
         title: "Pytagoras",
         year: "2019",
-        link: "https://www.winnersgroup.sk",
         access: "Closed Source",
         desc: "Back-End Office system for insurance management",
         uses: "php, nette, js",
