@@ -8,23 +8,6 @@ import MediaLinks from '../components/MediaLink.js'
 import Technologies from '../components/Technologies.js'
 
 export default class Index extends Component {
-    generateMail() {
-        const coded = "6XbsP6s@FPuPDPEtu.bBs"
-        const key = "4e63Jy25mQNvabrzEu0YZ9BHgLM8WFoCRPiDtV17qTIckjfOxhlXwGnKSsdUpA"
-        let shift = coded.length
-        let link=""
-        for (let i=0; i<coded.length; i++) {
-            if (key.indexOf(coded.charAt(i))==-1) {
-                let ltr = coded.charAt(i)
-                link += (ltr)
-            } else {
-                let ltr = (key.indexOf(coded.charAt(i))-shift+key.length) % key.length
-                link += (key.charAt(ltr))
-            }
-        }
-        return link
-    }
-
     render() {
         return (
             <Layout>
@@ -34,14 +17,19 @@ export default class Index extends Component {
                     <meta property="twitter:site" content="@DMadarasz" />
                     <meta property="og:title" content="Dominik Madarász" />
                     <meta property="og:type" content="website" />
+                    <meta property="og:site_name" content="ZaKlaus" />
                     <meta property="og:url" content="https://madaraszd.net" />
-                    <meta property="description" content="Dominik Madarász <contact@madaraszd.net>" />
+                    <meta property="description" content="Back-end, Front-end, full-stack software developer." />
                     <meta
                         property="og:description"
-                        content="Dominik Madarász <contact@madaraszd.net>"/>
+                        content="Back-end, Front-end, full-stack software developer."/>
                     <meta
                         property="og:image"
                         content="https://madaraszd.net/static/logo.png"/>
+
+                    <link type="application/json+oembed" href="https://madaraszd.net/static/oembed.json" />
+
+                    <meta name="theme-color" content="#50e3c2" />
                 </Head>
 
                 <div id="main">
@@ -148,7 +136,7 @@ export default class Index extends Component {
                         </h2>
 
                         <p>
-                            You can contact me at <a href={"mailto:"+this.generateMail()}>{this.generateMail()}</a>, but you can also
+                            You can contact me at <a href="#">contact [at] madaraszd [dot] net</a>, but you can also
                             find me at various social sites I participate in:
                         </p>
 
