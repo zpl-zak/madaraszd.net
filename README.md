@@ -11,4 +11,4 @@ My personal website
 MIT, see [](LICENSE) for details.
 
 ## Inspiration
-Website is heavily inspired by [hyper.is](https://hyper.is) made by [ZEIT, Inc.](https://zeit.co/).
+Website is heavily inspired by [hyper.is](https://hyper.is) made by [ZEIT, Inc.](https://zeit.co/)
