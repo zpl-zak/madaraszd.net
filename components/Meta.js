@@ -11,7 +11,7 @@ export default () => (
       <meta name="msapplication-TileColor" content="#000000" />
       <meta
         name="msapplication-TileImage"
-        content="/static/mstile-144x144.png"
+        content="/static/icon.png"
       />
     </Head>
     <style jsx global>{`
