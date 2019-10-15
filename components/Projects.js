@@ -180,7 +180,7 @@ export default class Projects extends Component {
             return (
                 <Fragment>
                     <div className="project">
-                        <h3>{prj.title} {prj.link!=null? <a href={prj.link}>{this.processUri(prj.link)}</a> : ""}</h3>
+                        <h3>{prj.title} {prj.link!=null? <a target="_blank" href={prj.link}>{this.processUri(prj.link)}</a> : ""}</h3>
                         <h4>{prj.desc}</h4>
                         <ul>
                             <li><b>Developed in: </b>{prj.year}</li>
