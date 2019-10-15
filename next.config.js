@@ -1,8 +1,4 @@
-const withMDX = require('@next/mdx')()
-
-module.exports = withMDX({
-    target: 'serverless',
-    pageExtensions: ['js', 'mdx'],
+module.exports = {
     webpack(config) {
         config.module.rules.push({
             test: /\.svg$/,
@@ -11,4 +7,4 @@ module.exports = withMDX({
 
         return config
     }
-})
+}

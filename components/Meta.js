@@ -6,7 +6,6 @@ export default () => (
     <Head>
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <meta charSet="utf-8" />
-      <title>Dominik Madarász</title>
       <meta name="application-name" content="Dominik Madarász" />
       <link rel="apple-touch-icon" sizes="57x57" href="/static/apple-icon-57x57.png" />
       <link rel="apple-touch-icon" sizes="60x60" href="/static/apple-icon-60x60.png" />
@@ -25,6 +24,7 @@ export default () => (
       <link rel="shortcut icon" type="image/x-icon" href="/static/favicon.ico"/>
       <meta name="msapplication-TileColor" content="#000000" />
       <meta name="msapplication-TileImage" content="/static/ms-icon-144x144.png" />
+      <meta name="theme-color" content="#50e3c2" />
     </Head>
     <style jsx global>{`
       /*
