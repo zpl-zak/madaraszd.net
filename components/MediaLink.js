@@ -51,7 +51,7 @@ export default class MediaLinks extends Component {
             return (
                 <Fragment>
                     <div className="media">
-                        <a href="{site.url}">
+                        <a href={site.url}>
                             <FontAwesomeIcon icon={['fab', site.icon]} />
                         </a>
                     </div>
