@@ -22,8 +22,9 @@ export default () => (
       <link rel="icon" type="image/png" sizes="96x96" href="/static/favicon-96x96.png">
       <link rel="icon" type="image/png" sizes="16x16" href="/static/favicon-16x16.png">
       <link rel="manifest" href="/static/manifest.json">
-      <meta name="msapplication-TileColor" content="#000000">
-      <meta name="msapplication-TileImage" content="/static/ms-icon-144x144.png">
+      <link rel="shortcut icon" type="image/x-icon" href="/static/favicon.ico"/>
+      <meta name="msapplication-TileColor" content="#000000" />
+      <meta name="msapplication-TileImage" content="/static/ms-icon-144x144.png" />
     </Head>
     <style jsx global>{`
       /*
