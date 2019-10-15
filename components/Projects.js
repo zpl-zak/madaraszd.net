@@ -176,9 +176,9 @@ export default class Projects extends Component {
     }
 
     render() {
-        return projects.map(prj => {
+        return projects.map((prj, i) => {
             return (
-                <Fragment>
+                <Fragment key={i}>
                     <div className="project">
                         <h3>{prj.title} {prj.link!=null? <a href="{prj.link}">{this.processUri(prj.link)}</a> : ""}</h3>
                         <h4>{prj.desc}</h4>
