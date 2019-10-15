@@ -58,6 +58,9 @@ h2 {
     padding: 10px;
     color: white;
     background-color: black;
+}
+
+.details-left h2 {
     width: 90%;
 }
 
