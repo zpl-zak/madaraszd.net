@@ -1,10 +1,14 @@
-module.exports = {
-  webpack(config) {
-    config.module.rules.push({
-      test: /\.svg$/,
-      use: ['@svgr/webpack'],
-    })
+const withMDX = require('@next/mdx')()
 
-    return config
-  }
-}
+module.exports = withMDX({
+    target: 'serverless',
+    pageExtensions: ['js', 'mdx'],
+    webpack(config) {
+        config.module.rules.push({
+            test: /\.svg$/,
+            use: ['@svgr/webpack'],
+        })
+
+        return config
+    }
+})
