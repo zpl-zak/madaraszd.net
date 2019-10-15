@@ -21,11 +21,20 @@
     "@svgr/webpack": "^4.3.3",
     "babel-plugin-inline-react-svg": "^1.1.0",
     "html-pdf": "^2.2.0",
+    "isomorphic-unfetch": "^3.0.0",
     "next": "^9.1.1",
     "react": "^16.10.2",
     "react-dom": "^16.10.2"
   },
   "browser": {
     "html-pdf": false
+  },
+  "devDependencies": {
+    "husky": "^3.0.9"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "node scripts/pre-commit.js && git add static/resume.pdf"
+    }
   }
 }
