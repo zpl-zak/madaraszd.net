@@ -16,7 +16,7 @@ const socialSites = [
     {
         title: "Twitter",
         icon: "twitter",
-        url: "https://twitter.com/@MrZaKlaus"
+        url: "https://twitter.com/DMadarasz"
     },
     {
         title: "LinkedIn",
@@ -51,7 +51,7 @@ export default class MediaLinks extends Component {
             return (
                 <Fragment>
                     <div key={idx.toString()} className="media">
-                        <a href={site.url}>
+                        <a target="_blank" href={site.url}>
                             <FontAwesomeIcon icon={['fab', site.icon]} />
                         </a>
                     </div>
