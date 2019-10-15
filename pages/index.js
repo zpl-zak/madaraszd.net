@@ -27,6 +27,10 @@ export default class Index extends Component {
                         property="og:image"
                         content="https://madaraszd.net/static/logo.png"/>
 
+                    <meta
+                        property="og:image:alt"
+                        content="https://madaraszd.net/static/icon.png"/>
+
                     <link type="application/json+oembed" href="https://madaraszd.net/static/oembed.json" />
 
                     <meta name="theme-color" content="#50e3c2" />
