@@ -164,7 +164,7 @@ export default class Index extends Component {
                   }
                   #logo {
                     margin-top: 48px;
-                    position: absolute;
+                    position: relative;
                     left: 0;
                     right: 0;
                     top: 0;
@@ -197,7 +197,7 @@ export default class Index extends Component {
                     max-width: 100%;
                   }
                   #top .top-content {
-                    position: absolute;
+                    position: relative;
                     bottom: 0;
                     left: 50%;
                     transform: translateX(-50%);
@@ -206,11 +206,9 @@ export default class Index extends Component {
                   #summary {
                     height: 50vh;
                     width: 100%;
-                    top: 65%;
-                    transform: translateY(-65%);
                     line-height: 2.5em;
                     text-align: center;
-                    position: absolute;
+                    position: relative;
                   }
                   #summary p {
                     font-size: 12pt;
