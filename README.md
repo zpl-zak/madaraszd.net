@@ -8,7 +8,7 @@ My personal website
 3. `npm run dev`
 
 ## License
-MIT, see [](LICENSE) for details.
+MIT, see [LICENSE](LICENSE) for details.
 
 ## Inspiration
 Website is heavily inspired by [hyper.is](https://hyper.is) made by [ZEIT, Inc.](https://zeit.co/)
