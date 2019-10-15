@@ -36,9 +36,6 @@ export default class Header extends React.Component {
               <ActiveLink href="/">Home</ActiveLink>
               <ActiveLink href="#aboutme">About Me</ActiveLink>
               <ActiveLink href="#portfolio">Portfolio</ActiveLink>
-              <ActiveLink href="/blog" handleClick={this.toggleMobileNav}>
-                Blog
-              </ActiveLink>
               <ActiveLink href="#contactme">Contact</ActiveLink>
           </nav>
 
@@ -51,9 +48,6 @@ export default class Header extends React.Component {
           <ActiveLink href="/">Home</ActiveLink>
           <ActiveLink href="#aboutme">About Me</ActiveLink>
           <ActiveLink href="#portfolio">Portfolio</ActiveLink>
-          <ActiveLink href="/blog" handleClick={this.toggleMobileNav}>
-            Blog
-          </ActiveLink>
           <ActiveLink href="#contactme">Contact</ActiveLink>
         </nav>
 

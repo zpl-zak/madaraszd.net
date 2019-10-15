@@ -47,10 +47,10 @@ const socialSites = [
 
 export default class MediaLinks extends Component {
     render() {
-        const sites = socialSites.map(site => {
+        const sites = socialSites.map((site, idx) => {
             return (
                 <Fragment>
-                    <div className="media">
+                    <div key={idx.toString()} className="media">
                         <a href={site.url}>
                             <FontAwesomeIcon icon={['fab', site.icon]} />
                         </a>
