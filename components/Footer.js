@@ -6,7 +6,7 @@ const Footer = ({}) => (
   <div className="info-bar">
     <div className="info-bar__contents container">
       <nav>
-        <a target="_blank" href="#aboutme">
+        <a href="#aboutme">
           About Me
         </a>
         <a target="_blank" href="https://github.com/zaklaus">
@@ -24,7 +24,6 @@ const Footer = ({}) => (
       </nav>
       <a
         className="zak-logo"
-        target="_blank"
         href="https://madaraszd.net"
         rel="noopener"
       >
