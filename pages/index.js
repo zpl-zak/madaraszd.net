@@ -137,12 +137,6 @@ export default class Index extends Component {
                             This framework is powered by my personal fork of <a target="_blank" href="https://github.com/zaklaus/raylib-go">raylib-go</a>.
                         </p>
 
-                        <h2 id="portfolio">
-                            <a href="#portfolio">My Portfolio</a>
-                        </h2>
-
-                        <Projects />
-
                         <h2 id="contactme">
                             <a href="#contactme">Reach Me</a>
                         </h2>
@@ -153,6 +147,12 @@ export default class Index extends Component {
                         </p>
 
                         <MediaLinks />
+
+                        <h2 id="portfolio">
+                            <a href="#portfolio">My Portfolio</a>
+                        </h2>
+
+                        <Projects />
                     </div>
                 </div>
 
