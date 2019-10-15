@@ -106,6 +106,7 @@ export default class MediaLinks extends Component {
                         width: 100%;
                         text-align: center;
                         margin-bottom: 50px;
+                        line-height: 50px;
                     }
                 `}</style>
             </Fragment>
