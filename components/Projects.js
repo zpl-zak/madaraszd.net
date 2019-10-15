@@ -23,7 +23,7 @@ const projects = [
         link: "https://mafiahub.dev",
         access: "Closed Source",
         desc: "Unofficial multi-player modification for Mafia: The City of Lost Heaven.",
-        uses: "c++, git, nodejs, nextjs, x86 asm, librg",
+        uses: "c++, git, nodejs, nextjs, go, x86 asm, librg",
         role: "Project Co-lead"
     },
     {
