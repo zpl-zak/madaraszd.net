@@ -5,7 +5,7 @@ export default async (req, res) => {
     const buffer = await pdfHelper.componentToPDFBuffer(
         <>
             <h1>Dominik Madarász</h1>
-            <h2>Software Developer</h2>
+            <h2>Software Engineer</h2>
             <ul>
                 <li><b>E-Mail: </b>contact@madaraszd.net</li>
                 <li><b>Phone: </b>***REMOVED***</li>

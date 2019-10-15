@@ -19,10 +19,10 @@ export default class Index extends Component {
                     <meta property="og:type" content="website" />
                     <meta property="og:site_name" content="ZaKlaus" />
                     <meta property="og:url" content="https://madaraszd.net" />
-                    <meta property="description" content="Back-end, Front-end, full-stack software developer." />
+                    <meta property="description" content="Back-end, Front-end, full-stack software engineer." />
                     <meta
                         property="og:description"
-                        content="Back-end, Front-end, full-stack software developer."/>
+                        content="Back-end, Front-end, full-stack software engineer."/>
                     <meta
                         property="og:image"
                         content="https://madaraszd.net/static/logo.png"/>
