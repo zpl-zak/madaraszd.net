@@ -45,7 +45,7 @@ export default class Index extends Component {
 
                             <svg width="244" height="120" viewBox="0 0 244 120" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M0 0H244V120H0V0Z" fill="black"/>
-                                <rect x="13" y="13" width="94" height="94" fill="black" stroke="black" stroke-width="6"/>
+                                <rect x="13" y="13" width="94" height="94" fill="black" stroke="black" strokeWidth="6"/>
                                 <path d="M22 98V36L54 98H22Z" fill="white"/>
                                 <path d="M94 22H28L61 87L94 22Z" fill="white"/>
                                 <path d="M98 38L69 98H98V38Z" fill="white"/>
