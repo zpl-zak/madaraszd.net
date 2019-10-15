@@ -42,6 +42,11 @@ const socialSites = [
         title: "Facebook",
         icon: "facebook",
         url: "https://www.facebook.com/ZaKlaus"
+    },
+    {
+        title: "HackerNews",
+        icon: "hacker-news",
+        url: "https://news.ycombinator.com/user?id=zaklaus"
     }
 ]
 
