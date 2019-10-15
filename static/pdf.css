@@ -1,0 +1,81 @@
+div, body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.top-part {
+    width: 100%;
+    background-color: black;
+    margin: 0;
+}
+
+.top-logo {
+    display: inline;
+}
+
+.top-contact {
+    display: inline;
+    float: right;
+    color: white;
+    padding-top: 5px;
+    padding-right: 15px;
+}
+
+.top-contact li {
+    list-style: none;
+}
+
+.top-link {
+    color: #50e3c2;
+}
+
+.details {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.details-left {
+    width: 50%;
+    margin: 0;
+    display: inline-block;
+}
+
+.details-left p {
+    color: black;
+    padding: 15px;
+}
+
+
+.details-right {
+    width: 50%;
+    display: inline-block;
+    float: right;
+}
+
+h2 {
+    font-weight: bolder;
+    font-size: 14pt;
+    padding: 10px;
+    color: white;
+    background-color: black;
+}
+
+.details-right p {
+    color: black;
+}
+.block {
+    width: 100%;
+}
+
+.block h1 {
+    font-size: 22pt;
+    text-decoration: underline;
+}
+
+.block p {
+    padding-left: 15px;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
