@@ -71,7 +71,7 @@ export default class Index extends Component {
                             <p>
                                 My fields: #gamedev, #backend, #frontend <br />
                                 explore my <a href="#portfolio">portfolio</a> |
-                                read my <a href="/resume">C.V.</a> <br />
+                                read my <a href="/static/resume.pdf">C.V.</a> <br />
                                 you can also <a href="#contactme">contact me</a> or follow on <a href="#contactme">social media</a>.
                             </p>
 
@@ -98,8 +98,13 @@ export default class Index extends Component {
 
                         <p>
                             I am experienced in these technologies:
-                            <Technologies />
                         </p>
+
+                        {/* ul cannot be a child of P */}
+                        <Technologies />
+
+                        {/* some spacing */}
+                        <br />
 
                         <p>
                             I am fluent in <b>English</b>, <b>Czech</b> and <b>Slovak</b> languages. I actively use these languages for communication
