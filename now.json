@@ -1,7 +1,4 @@
 {
     "version": 2,
-    "alias": ["madaraszd.net"],
-    "routes": [
-        { "src": "(.*)/$", "status": 301, "headers": { "Location": "/$1" }}
-    ]
+    "alias": ["madaraszd.net"]
 }
