@@ -61,7 +61,7 @@ export default async (req, res) => {
                     <ul>
                         <li>2013 - 2017 at <b>Gymnázium Ľudovíta Štúra</b>, Zvolen, Banskobystrický Kraj, Slovakia
                             <ul>
-                                <li>High School Diploma</li>
+                                <li>Secondary with school-leaving examination</li>
                                 <li>Computational Science and Engineering coursework</li>
                                 <li>Information Technology coursework</li>
                             </ul>
