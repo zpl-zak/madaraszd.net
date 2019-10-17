@@ -49,7 +49,7 @@ export default async (req, res) => {
                     <ul>
                         <li>2018 - 2019 at <b>PEMIBA, s.r.o.</b>
                             <ul>
-                                <li><b>Rola: </b>Softvérový vývojár</li>
+                                <li><b>Pozícia: </b>Softvérový vývojár</li>
                                 <li><b>Technológie: </b>PHP, Nette Framework, JavaScript, jQuery</li>
                             </ul>
                         </li>
