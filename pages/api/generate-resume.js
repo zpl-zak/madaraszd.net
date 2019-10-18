@@ -45,17 +45,6 @@ export default async (req, res) => {
                     <Technologies />
                 </div>
                 <div className="details-right">
-                    <h2>Occupation</h2>
-
-                    <ul>
-                        <li>2018 - 2019 at <b>PEMIBA, s.r.o.</b>
-                            <ul>
-                                <li><b>Position: </b>Software Developer</li>
-                                <li><b>Technologies: </b>PHP, Nette Framework, JavaScript, jQuery</li>
-                            </ul>
-                        </li>
-                    </ul>
-
                     <h2>Education</h2>
 
                     <ul>

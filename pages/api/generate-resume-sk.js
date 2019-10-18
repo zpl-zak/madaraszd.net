@@ -44,17 +44,6 @@ export default async (req, res) => {
                     <Technologies />
                 </div>
                 <div className="details-right">
-                    <h2>Priebeh zamestnaní</h2>
-
-                    <ul>
-                        <li>2018 - 2019 at <b>PEMIBA, s.r.o.</b>
-                            <ul>
-                                <li><b>Pozícia: </b>Softvérový vývojár</li>
-                                <li><b>Technológie: </b>PHP, Nette Framework, JavaScript, jQuery</li>
-                            </ul>
-                        </li>
-                    </ul>
-
                     <h2>Vzdelanie</h2>
 
                     <ul>
