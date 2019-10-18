@@ -69,7 +69,7 @@ export default async (req, res) => {
                     <h2>Hovorené Jazyky</h2>
 
                     <ul>
-                        <li>Angličtina</li>
+                        <li>Angličtina (B2)</li>
                         <li>Slovenčina</li>
                         <li>Čeština</li>
                     </ul>

@@ -71,7 +71,7 @@ export default async (req, res) => {
                     <h2>Spoken Languages</h2>
 
                     <ul>
-                        <li>English</li>
+                        <li>English (B2)</li>
                         <li>Slovak</li>
                         <li>Czech</li>
                     </ul>
