@@ -21,7 +21,6 @@ export default async (req, res) => {
                 <div className="top-contact">
                     <ul>
                         <li><b>E-Mail: </b><span className="top-link">contact@madaraszd.net</span></li>
-                        <li><b>Mobil: </b><span className="top-link">***REMOVED***</span></li>
                         <li><b>GitHub: </b><span className="top-link">https://github.com/zaklaus</span></li>
                         <li><b>LinkedIn: </b><span className="top-link">https://linkedin.com/in/zaklaus</span></li>
                     </ul>
