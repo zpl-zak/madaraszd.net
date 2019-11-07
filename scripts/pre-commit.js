@@ -21,12 +21,12 @@ const main = async () => {
 
     server.listen(port, err => {if (err) throw err})
 
-    let res = await fetch(`http://localhost:${port}/api/generate-resume`)
+    let res = await fetch(`http://localhost:${port}/api/generate-resume?lang=en`)
     let data = await res.buffer()
 
     fs.writeFileSync(path.join(__dirname, '../static/', 'resume.pdf'), data)
 
-    res = await fetch(`http://localhost:${port}/api/generate-resume-sk`)
+    res = await fetch(`http://localhost:${port}/api/generate-resume?lang=sk`)
     data = await res.buffer()
 
     fs.writeFileSync(path.join(__dirname, '../static/', 'resume_sk.pdf'), data)

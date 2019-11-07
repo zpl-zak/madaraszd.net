@@ -32,11 +32,6 @@ const Footer = ({}) => (
     </div>
 
     <style jsx>{`
-      #zeit {
-        padding-left: 6px;
-        margin-bottom: 2px;
-        color: white;
-      }
       .info-bar {
         height: 100px;
         width: 100%;
