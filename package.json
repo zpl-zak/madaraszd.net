@@ -31,7 +31,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "node scripts/pre-commit.js && git add static/resume.pdf && git add static/resume_sk.pdf"
+      "pre-commit": "node scripts/pre-commit.js && git add public/resume.pdf && git add public/resume_sk.pdf"
     }
   }
 }

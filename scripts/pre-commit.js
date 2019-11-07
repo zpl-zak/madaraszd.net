@@ -24,12 +24,12 @@ const main = async () => {
     let res = await fetch(`http://localhost:${port}/api/generate-resume?lang=en`)
     let data = await res.buffer()
 
-    fs.writeFileSync(path.join(__dirname, '../static/', 'resume.pdf'), data)
+    fs.writeFileSync(path.join(__dirname, '../public/', 'resume.pdf'), data)
 
     res = await fetch(`http://localhost:${port}/api/generate-resume?lang=sk`)
     data = await res.buffer()
 
-    fs.writeFileSync(path.join(__dirname, '../static/', 'resume_sk.pdf'), data)
+    fs.writeFileSync(path.join(__dirname, '../public/', 'resume_sk.pdf'), data)
 
     console.log('[pre-commit] saved pdf file, stopping temp server')
 

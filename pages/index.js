@@ -25,9 +25,9 @@ export default class Index extends Component {
                         content="Back-end, Front-end, full-stack software engineer."/>
                     <meta
                         property="og:image"
-                        content="https://madaraszd.net/static/logo.png"/>
+                        content="https://madaraszd.net/logo.png"/>
 
-                    <link type="application/json+oembed" href="https://madaraszd.net/static/oembed.json" />
+                    <link type="application/json+oembed" href="https://madaraszd.net/oembed.json" />
                     <script src="https://kit.fontawesome.com/6b6c57fb81.js" crossOrigin="anonymous"></script>
                 </Head>
 
@@ -58,13 +58,13 @@ export default class Index extends Component {
                             <p>
                                 My fields: #gamedev, #backend, #frontend <br />
                                 explore my <a href="#portfolio">portfolio</a> |
-                                read my <a href="/static/resume.pdf">C.V.</a> <br />
+                                read my <a href="/resume.pdf">C.V.</a> <br />
                                 you can also <a href="#contactme">contact me</a> or follow on <a href="#contactme">social media</a>.
                             </p>
 
                             <div id="arrow">
                                 <a href="#aboutme">
-                                    <img src="static/arrow.svg" width={18} />
+                                    <img src="/arrow.svg" width={18} />
                                 </a>
                             </div>
                         </div>
@@ -77,7 +77,7 @@ export default class Index extends Component {
 
                         <p>
                             I’m Dominik, a developer who loves to explore things.
-                            Since my <b>handicap</b> made me more-or-less unable to do certain jobs, I got interested in <b>computers</b>. 
+                            Since my <b>handicap</b> made me more-or-less unable to do certain jobs, I got interested in <b>computers</b>.
                             I always like to explore nature, go out with friends and read
                             articles or books on the Internet.
                             In my spare time I progress with <b>hobby</b> and community <b>projects</b>.
@@ -117,9 +117,9 @@ export default class Index extends Component {
 
                         <p>
                             I co-authored a library written in <b>C99</b> called <a target="_blank" href="https://github.com/librg/librg">librg</a>.
-                            It is a lightweight game networking library that is based on our fork of <a target="_blank" href="https://github.com/zpl-c/enet">ENet</a>, 
+                            It is a lightweight game networking library that is based on our fork of <a target="_blank" href="https://github.com/zpl-c/enet">ENet</a>,
                             which gives us low-level UDP networking with optional reliability. It offers
-                            full flow control with robust messaging and event management coupled with powerful and tweakable 
+                            full flow control with robust messaging and event management coupled with powerful and tweakable
                             network-bind culling.
                         </p>
 
