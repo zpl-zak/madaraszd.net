@@ -5,8 +5,7 @@ import { parse } from 'url'
 
 export default async (req, res) => {
     const parsedUrl = parse(req.url, true)
-    let { query: { lang } } = parsedUrl
-    lang = lang || 'en'
+    const { query: { lang } } = parsedUrl
 
     const buffer = await pdfHelper.componentToPDFBuffer(resumeFactory.generateComponent(lang))
 
