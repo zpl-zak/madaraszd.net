@@ -28,7 +28,7 @@ export default class Index extends Component {
                         content="https://madaraszd.net/logo.png"/>
 
                     <link type="application/json+oembed" href="https://madaraszd.net/oembed.json" />
-                    <script src="https://kit.fontawesome.com/6b6c57fb81.js" crossOrigin="anonymous" sameSite="Secure"></script>
+                    <script src="https://kit.fontawesome.com/6b6c57fb81.js" crossOrigin="anonymous" sameSite="Strict"></script>
                 </Head>
 
                 <div id="main">
