@@ -14,8 +14,6 @@ const main = async () => {
 
     const server = createServer((req, res) => {
         const parsedUrl = parse(req.url, true)
-        const { pathname, query } = parsedUrl
-
         handle(req, res, parsedUrl)
     })
 
