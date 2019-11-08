@@ -58,7 +58,7 @@ export default class Index extends Component {
                             <p>
                                 My fields: #gamedev, #backend, #frontend <br />
                                 explore my <a href="#portfolio">portfolio</a> |
-                                read my <a href="/resume.pdf">C.V.</a> <br />
+                                read my <a href="/resume_en.pdf">C.V.</a> <br />
                                 you can also <a href="#contactme">contact me</a> or follow on <a href="#contactme">social media</a>.
                             </p>
 

@@ -4,9 +4,7 @@ import resumeFactory from '../../lib/resume-factory.js'
 import { parse } from 'url'
 
 export default async (req, res) => {
-    const parsedUrl = parse(req.url, true)
-    const { query: { lang } } = parsedUrl
-
+    const { query: { lang } } = parse(req.url, true)
     const buffer = await pdfHelper.componentToPDFBuffer(resumeFactory.generateComponent(lang))
 
     res.setHeader('Content-Type', 'application/pdf')

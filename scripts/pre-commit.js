@@ -21,17 +21,14 @@ const main = async () => {
 
     server.listen(port, err => {if (err) throw err})
 
-    let res = await fetch(`http://localhost:${port}/api/generate-resume?lang=en`)
-    let data = await res.buffer()
+    await Promise.all(['en', 'sk'].map(async lang => {
+        console.log(`[pre-commit] generating resume in ${lang} ...`)
+        let res = await fetch(`http://localhost:${port}/api/generate-resume?lang=${lang}`)
+        let data = await res.buffer()
+        fs.writeFileSync(path.join(__dirname, '../public/', `resume_${lang}.pdf`), data)
+    }))
 
-    fs.writeFileSync(path.join(__dirname, '../public/', 'resume.pdf'), data)
-
-    res = await fetch(`http://localhost:${port}/api/generate-resume?lang=sk`)
-    data = await res.buffer()
-
-    fs.writeFileSync(path.join(__dirname, '../public/', 'resume_sk.pdf'), data)
-
-    console.log('[pre-commit] saved pdf file, stopping temp server')
+    console.log('[pre-commit] saved pdf files, stopping temp server')
 
     server.close()
     process.exit(0)
