@@ -51,7 +51,7 @@ export default class Index extends Component {
 
                         <div id="summary">
                             <h2>
-                                Software Developer with &gt;10 years of experience. <br />
+                                Software Engineer with &gt;10 years of experience. <br />
                                 Innovative. Creative. Reliable.
                             </h2>
 
@@ -76,7 +76,7 @@ export default class Index extends Component {
                         </h2>
 
                         <p>
-                            I’m Dominik, a developer who loves to explore things.
+                            I’m Dominik, a software engineer who loves to explore things.
                             Since my <b>handicap</b> made me more-or-less unable to do certain jobs, I got interested in <b>computers</b>.
                             I always like to explore nature, go out with friends and read
                             articles or books on the Internet.
