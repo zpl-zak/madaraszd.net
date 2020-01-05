@@ -19,7 +19,7 @@ const Footer = ({}) => (
           LinkedIn
         </a>
         <span>
-          Designed with ❤️ in 2019
+          Designed with ❤️ in 2020
         </span>
       </nav>
       <a
