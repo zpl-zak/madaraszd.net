@@ -2,6 +2,15 @@ import {Component, Fragment} from 'react'
 
 const projects = [
     {
+        title: "NEON86",
+        year: "2020 - now",
+        access: "Open Source",
+        link: "https://zaklaus.itch.io/neon-86",
+        desc: "A toy game engine reflecting on simplicity and retro approach to gamedev.",
+        uses: "c++, d3d9, lua, assimp",
+        role: "Project Lead"
+    },
+    {
         title: "Blade",
         year: "2019 - now",
         access: "Closed Source",
