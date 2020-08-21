@@ -2,6 +2,15 @@ import {Component, Fragment} from 'react'
 
 const projects = [
     {
+        title: "NEON SLAYER",
+        year: "2020 - now",
+        access: "Open Source",
+        link: "https://zaklaus.itch.io/neon-slayer",
+        desc: "NEON SLAYER is an action-packed fast-paced deathmatch arena, where your only weapons are reflexes.",
+        uses: "c++, lua, neon86, enet",
+        role: "Project Lead"
+    },
+    {
         title: "NEON86",
         year: "2020 - now",
         access: "Open Source",
