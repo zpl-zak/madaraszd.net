@@ -1,5 +1,5 @@
-import { componentToPDFBuffer } from '../../lib/pdf-helper.js'
-import { generateComponent } from '../../lib/resume-factory.js'
+import componentToPDFBuffer from '../../lib/pdf-helper.js'
+import generateComponent from '../../lib/resume-factory.js'
 import { parse } from 'url'
 
 export default async (req, res) => {
