@@ -1,4 +1,4 @@
-import Document, {Head, Main, NextScript} from 'next/document'
+import Document, {Html, Head, Main, NextScript} from 'next/document'
 
 export default class PersonalDocument extends Document {
     static async getInitialProps(ctx) {
@@ -8,13 +8,13 @@ export default class PersonalDocument extends Document {
 
     render() {
         return (
-            <html>
+            <Html>
             <Head />
             <body>
               <Main />
               <NextScript />
             </body>
-          </html>
+          </Html>
         )
     }
 }

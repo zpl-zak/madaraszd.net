@@ -1,4 +1,5 @@
 import React from 'react'
 import Logo from '../components/icons/logo.svg'
 
-export default () => <Logo />
+const LogoComponent = () => <Logo />
+export default LogoComponent

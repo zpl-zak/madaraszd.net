@@ -1,4 +1,4 @@
-export default () => (
+const Technologies = () => (
     <ul>
         <li>Git, Mercurial, SVN</li>
         <li>Linux admin, SSH, *nix shells</li>
@@ -8,6 +8,7 @@ export default () => (
         <li>Unity, Unreal Engine 4, Quake</li>
         <li>MySQL, MongoDB, MSSQL</li>
         <li>Less, Sass</li>
+        <li>OpenGL, Direct3D, Vulkan</li>
         <li>HTML5, Handlebars</li>
         <li>Performance and scalability optimization</li>
         <li>Data management and analysis</li>
@@ -18,3 +19,5 @@ export default () => (
         <li>CG, PhysSim, Game networking, ...</li>
     </ul>
 )
+
+export default Technologies

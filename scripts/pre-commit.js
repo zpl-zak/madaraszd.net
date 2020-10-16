@@ -20,7 +20,7 @@ const main = async () => {
     server.listen(port, err => {if (err) throw err})
 
     await Promise.all(['en', 'sk'].map(async lang => {
-        console.log(`[pre-commit] generating resume in ${lang} ...`)
+        console.log(`[pre-commit] generating resume in ${lang} language ...`)
         let res = await fetch(`http://localhost:${port}/api/generate-resume?lang=${lang}`)
         let data = await res.buffer()
         fs.writeFileSync(path.join(__dirname, '../public/', `resume_${lang}.pdf`), data)

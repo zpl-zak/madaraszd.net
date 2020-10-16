@@ -6,7 +6,6 @@ import {library} from '@fortawesome/fontawesome-svg-core'
 import {fab} from '@fortawesome/free-brands-svg-icons'
 library.add(fab)
 
-
 const socialSites = [
     {
         title: "GitHub",
@@ -50,66 +49,66 @@ const socialSites = [
     }
 ]
 
-export default class MediaLinks extends Component {
-    render() {
-        const sites = socialSites.map((site, idx) => {
-            return (
-                <Fragment key={idx}>
-                    <div className="media">
-                        <a target="_blank" href={site.url}>
-                            <FontAwesomeIcon icon={['fab', site.icon]} />
-                        </a>
-                    </div>
-
-                    <style jsx>{`
-                        .media {
-                            position: relative;
-                            display: inline-block;
-                            text-align: center;
-                            margin-left: 16px;
-                            margin-right: 16px;
-                            font-size: 48px;
-                        }
-
-                        .media a {
-                            color: white;
-                        }
-
-                        .media a:visited {
-                            color: white;
-                        }
-
-                        .media a:hover {
-                            color: #50e3c2;
-                        }
-
-                        @media screen and (max-width: 500px) {
-                            .media {
-                                font-size: 32px;
-                            }
-                        }
-                    `}
-                    </style>
-                </Fragment>
-            )
-        })
-
+const MediaLinks = () => {
+    const sites = socialSites.map((site, idx) => {
         return (
-            <Fragment>
-                <div id="media-row">
-                    {sites}
+            <Fragment key={idx}>
+                <div className="media">
+                    <a target="_blank" href={site.url}>
+                        <FontAwesomeIcon icon={['fab', site.icon]} />
+                    </a>
                 </div>
 
                 <style jsx>{`
-                    #media-row {
+                    .media {
                         position: relative;
-                        width: 100%;
+                        display: inline-block;
                         text-align: center;
-                        margin-bottom: 50px;
-                        line-height: 50px;
+                        margin-left: 16px;
+                        margin-right: 16px;
+                        font-size: 48px;
                     }
-                `}</style>
+
+                    .media a {
+                        color: white;
+                    }
+
+                    .media a:visited {
+                        color: white;
+                    }
+
+                    .media a:hover {
+                        color: #50e3c2;
+                    }
+
+                    @media screen and (max-width: 500px) {
+                        .media {
+                            font-size: 32px;
+                        }
+                    }
+                `}
+                </style>
             </Fragment>
         )
-    }
+    })
+
+    return (
+        <Fragment>
+            <div id="media-row">
+                {sites}
+            </div>
+
+            <style jsx>{`
+                #media-row {
+                    position: relative;
+                    width: 100%;
+                    text-align: center;
+                    margin-bottom: 50px;
+                    line-height: 50px;
+                }
+            `}</style>
+        </Fragment>
+    )
 }
+
+export default MediaLinks

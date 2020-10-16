@@ -1,4 +1,4 @@
-import {Component, Fragment} from 'react'
+import { Fragment } from 'react'
 
 const projects = [
     {
@@ -187,59 +187,59 @@ const projects = [
     },
 ]
 
-export default class Projects extends Component {
-    processUri(url) {
-        url = url.replace('https://','')
-        return url.length > 30 ? ('...' + url.substring(url.length-30, url.length)) : url
-    }
-
-    render() {
-        return projects.map((prj, i) => {
-            return (
-                <Fragment key={i}>
-                    <div className="project">
-                        <h3>{prj.title} {prj.link!=null? <a target="_blank" href={prj.link}>{this.processUri(prj.link)}</a> : ""}</h3>
-                        <h4>{prj.desc}</h4>
-                        <ul>
-                            <li><b>Developed in: </b>{prj.year}</li>
-                            <li><b>Status: </b>{prj.access}</li>
-                            <li><b>Role: </b>{prj.role}</li>
-                            <li><b>Uses: </b>{prj.uses}</li>
-                        </ul>
-                    </div>
-                    <style jsx>{`
-                        .project {
-                            margin-bottom: 30px;
-                        }
-                        .project h3 {
-                            margin: 0;
-                            margin-bottom: 5px;
-                            font-size: 16pt;
-                        }
-                        .project a {
-                            color: #50e3c2 !important;
-                            font-size: 12pt;
-                            font-weight: normal;
-                            float: right;
-                        }
-                        .project h4 {
-                            font-weight: normal;
-                            margin: 0px;
-                            padding-left: 5px;
-                        }
-                        .project ul {
-                            margin: 0;
-                            padding: 0;
-                            margin-top: 5px;
-                            margin-left: 10px;
-                        }
-                        .project li {
-                            list-style-type: none;
-                            margin-left: 5px;
-                        }
-                    `}</style>
-                </Fragment>
-            )
-        })
-    }
+const processUri = url => {
+    url = url.replace('https://','')
+    return url.length > 30 ? ('...' + url.substring(url.length-30, url.length)) : url
 }
+
+const Projects = () => (
+    projects.map((prj, i) => {
+        return (
+            <Fragment key={i}>
+                <div className="project">
+                    <h3>{prj.title} {prj.link!=null? <a target="_blank" href={prj.link}>{processUri(prj.link)}</a> : ""}</h3>
+                    <h4>{prj.desc}</h4>
+                    <ul>
+                        <li><b>Developed in: </b>{prj.year}</li>
+                        <li><b>Status: </b>{prj.access}</li>
+                        <li><b>Role: </b>{prj.role}</li>
+                        <li><b>Uses: </b>{prj.uses}</li>
+                    </ul>
+                </div>
+                <style jsx>{`
+                    .project {
+                        margin-bottom: 30px;
+                    }
+                    .project h3 {
+                        margin: 0;
+                        margin-bottom: 5px;
+                        font-size: 16pt;
+                    }
+                    .project a {
+                        color: #50e3c2 !important;
+                        font-size: 12pt;
+                        font-weight: normal;
+                        float: right;
+                    }
+                    .project h4 {
+                        font-weight: normal;
+                        margin: 0px;
+                        padding-left: 5px;
+                    }
+                    .project ul {
+                        margin: 0;
+                        padding: 0;
+                        margin-top: 5px;
+                        margin-left: 10px;
+                    }
+                    .project li {
+                        list-style-type: none;
+                        margin-left: 5px;
+                    }
+                `}</style>
+            </Fragment>
+        )
+    })
+)
+
+export default Projects
