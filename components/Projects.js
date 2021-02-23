@@ -2,6 +2,32 @@ import { Fragment } from 'react'
 
 const projects = [
     {
+        title: "ZPL - tester",
+        year: "2021",
+        access: "Open Source",
+        link: "https://github.com/zpl-c/tester",
+        desc: "Simple unit testing framework for small-scale C applications (especially embedded.)",
+        uses: "c, git",
+        role: "Project Lead"
+    },
+    {
+        title: "ZPL - eco2d",
+        year: "2020 - now",
+        access: "Open Source",
+        link: "https://github.com/zpl-c/eco2d",
+        desc: "Sandboxing platform in synergy with other cool tech stack.",
+        uses: "c, librg, flecs, raylib, git",
+        role: "Project Lead"
+    },
+    {
+        title: "rinetd-admin",
+        year: "2020",
+        access: "Open Source",
+        link: "https://github.com/zaklaus/rinetd-admin",
+        desc: "Admin dashboard for rinetd service.",
+        uses: "js, react, nextjs, nodejs, rinetd, rest, swr, formik"
+    },
+    {
         title: "NEON SLAYER",
         year: "2020 - now",
         access: "Open Source",
