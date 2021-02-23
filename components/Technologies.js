@@ -8,6 +8,7 @@ const Technologies = () => (
         <li>Unity, Unreal Engine 4, Quake</li>
         <li>love2d, pico-8, neon86</li>
         <li>MySQL, MongoDB, MSSQL, Redis</li>
+        <li>Prometheus, InfluxDB, Telegraf, Grafana</li>
         <li>Less, Sass</li>
         <li>OpenGL, Direct3D, Vulkan</li>
         <li>HTML5, Handlebars</li>
