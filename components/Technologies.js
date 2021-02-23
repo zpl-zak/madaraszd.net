@@ -1,11 +1,12 @@
 const Technologies = () => (
     <ul>
-        <li>Git, Mercurial, SVN</li>
+        <li>Git, Mercurial, SVN, Perforce</li>
         <li>Linux admin, SSH, *nix shells</li>
         <li>Windows admin, PowerShell</li>
         <li>C, C++, Go, C#, Java</li>
         <li>Python, JavaScript, PHP7, SQL</li>
         <li>Unity, Unreal Engine 4, Quake</li>
+        <li>love2d, pico-8, neon86</li>
         <li>MySQL, MongoDB, MSSQL, Redis</li>
         <li>Less, Sass</li>
         <li>OpenGL, Direct3D, Vulkan</li>
@@ -18,7 +19,7 @@ const Technologies = () => (
         <li>jQuery, js plugins</li>
         <li>NodeJS, ASP.NET, socket programming</li>
         <li>CSS3, Bootstrap, Materialize, Markdown</li>
-        <li>CG, PhysSim, Game networking, ...</li>
+        <li>Game networking</li>
     </ul>
 )
 

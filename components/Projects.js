@@ -25,6 +25,7 @@ const projects = [
         access: "Open Source",
         link: "https://github.com/zaklaus/rinetd-admin",
         desc: "Admin dashboard for rinetd service.",
+        role: "Project Lead",
         uses: "js, react, nextjs, nodejs, rinetd, rest, swr, formik"
     },
     {
