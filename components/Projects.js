@@ -2,6 +2,15 @@ import { Fragment } from 'react'
 
 const projects = [
     {
+        title: "ZPL - texed",
+        year: "2021",
+        access: "Open Source",
+        link: "https://github.com/zpl-c/texed",
+        desc: "Stack-based texture generation tool",
+        uses: "c, raylib, cwpack, git",
+        role: "Project Lead"
+    },
+    {
         title: "ZPL - tester",
         year: "2021",
         access: "Open Source",
