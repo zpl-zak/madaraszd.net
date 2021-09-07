@@ -2,6 +2,15 @@ import { Fragment } from 'react'
 
 const projects = [
     {
+        title: "MafiaHub Framework",
+        year: "2021",
+        access: "Open Source",
+        link: "https://github.com/MafiaHub/Framework",
+        desc: "Framework for multi-player modifications",
+        uses: "c++, firebase, slikenet, sentry, cef, node, mongoose, git, cmake",
+        role: "Project Co-Lead"
+    },
+    {
         title: "ZPL - texed",
         year: "2021",
         access: "Open Source",
