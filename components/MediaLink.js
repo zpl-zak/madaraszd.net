@@ -10,7 +10,7 @@ const socialSites = [
     {
         title: "GitHub",
         icon: "github",
-        url: "https://github.com/zaklaus"
+        url: "https://github.com/zpl-zak"
     },
     {
         title: "Twitter",
