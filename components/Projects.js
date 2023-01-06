@@ -4,8 +4,9 @@ const projects = [
   {
     title: "Void3D",
     year: "2022",
-    access: "Open Source",
-    desc: "Framework for multi-player modifications",
+    access: "Closed Source",
+    link: "https://zaklaus.itch.io/void3d",
+    desc: "The 3D engine was initially developed by Lonely Cat Games. Now improved with passion for old time's sake.",
     uses: "c++, direct3d, hlsl asm",
     role: "Project Lead",
   },
