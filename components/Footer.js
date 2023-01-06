@@ -1,14 +1,12 @@
-import React from 'react'
-import { withRouter } from 'next/router'
-import Link from 'next/link'
+import React from "react";
+import { withRouter } from "next/router";
+import Link from "next/link";
 
 const Footer = ({}) => (
   <div className="info-bar">
     <div className="info-bar__contents container">
       <nav>
-        <a href="#aboutme">
-          About Me
-        </a>
+        <a href="#aboutme">About Me</a>
         <a target="_blank" href="https://github.com/zaklaus">
           GitHub
         </a>
@@ -18,15 +16,9 @@ const Footer = ({}) => (
         <a target="_blank" href="https://www.linkedin.com/in/zaklaus/">
           LinkedIn
         </a>
-        <span>
-          Designed with ❤️ in 2020
-        </span>
+        <span>Designed with ❤️ in 2020</span>
       </nav>
-      <a
-        className="zak-logo"
-        href="https://madaraszd.net"
-        rel="noopener"
-      >
+      <a className="zak-logo" href="https://madaraszd.net" rel="noopener">
         <b>M</b>
       </a>
     </div>
@@ -120,6 +112,6 @@ const Footer = ({}) => (
       }
     `}</style>
   </div>
-)
+);
 
-export default withRouter(Footer)
+export default withRouter(Footer);
