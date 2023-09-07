@@ -15,7 +15,9 @@ const projects = [
     year: "2023",
     access: "Open Source",
     link: "https://github.com/zpl-zak/zsr-tester",
-    desc: "Online quiz written for train driver applicants."
+    desc: "Online quiz written for train driver applicants.",
+    uses: "js, react, nextjs, nodejs",
+    role: "Project Lead",
   },
   {
     title: "Void3D",
