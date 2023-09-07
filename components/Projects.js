@@ -2,6 +2,15 @@ import { Fragment } from "react";
 
 const projects = [
   {
+    title: "V4K",
+    year: "2023",
+    access: "Closed Source",
+    link: "https://v4k.dev",
+    desc: "Multimedia workbench for prototyping and planning.",
+    uses: "c, glsl, opengl, assimp, zpl",
+    role: "Project Lead",
+  },
+  {
     title: "Void3D",
     year: "2022",
     access: "Closed Source",
