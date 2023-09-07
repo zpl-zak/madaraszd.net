@@ -46,11 +46,6 @@ const socialSites = [
         title: "HackerNews",
         icon: "hacker-news",
         url: "https://news.ycombinator.com/user?id=zaklaus"
-    },
-    {
-        title: "My Blog",
-        iconURL: "https://madaraszd.net/icon.png",
-        url: "https://blog.zakto.pw/"
     }
 ]
 
@@ -60,7 +55,7 @@ const MediaLinks = () => {
             <Fragment key={idx}>
                 <div className="media">
                     <a target="_blank" href={site.url}>
-                        {site.iconURL != null ? <img src={site.iconURL} alt='logo'></img> : <FontAwesomeIcon icon={['fab', site.icon]} />}
+                        <FontAwesomeIcon icon={['fab', site.icon]} />
                     </a>
                 </div>
 

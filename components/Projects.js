@@ -3,7 +3,7 @@ import { Fragment } from "react";
 const projects = [
   {
     title: "V4K",
-    year: "2023",
+    year: "2023 - now",
     access: "Closed Source",
     link: "https://v4k.dev",
     desc: "Multimedia workbench for prototyping and planning.",
@@ -84,7 +84,7 @@ const projects = [
   },
   {
     title: "NEON86",
-    year: "2020 - now",
+    year: "2020",
     access: "Open Source",
     link: "https://zaklaus.itch.io/neon-86",
     desc: "A toy game engine reflecting on simplicity and retro approach to gamedev.",
@@ -109,7 +109,7 @@ const projects = [
   },
   {
     title: "Mafia: Oakwood",
-    year: "2019 - now",
+    year: "2019",
     link: "https://mafiahub.dev",
     access: "Closed Source",
     desc: "Unofficial multi-player modification for Mafia: The City of Lost Heaven.",
@@ -118,7 +118,7 @@ const projects = [
   },
   {
     title: "MafiaUnity",
-    year: "2018 - now",
+    year: "2018",
     link: "https://github.com/MafiaHub/MafiaUnity",
     access: "Open Source",
     desc: "Mafia game framework and game engine re-implementation.",
@@ -154,7 +154,7 @@ const projects = [
   },
   {
     title: "rurik",
-    year: "2018 - now",
+    year: "2018",
     access: "Open Source",
     link: "https://github.com/zaklaus/rurik",
     desc: "A 2D cross-platform game engine/framework made as an experiment to explore what possibilities can be achieved in an ideal workspace.",
