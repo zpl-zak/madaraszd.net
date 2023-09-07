@@ -10,7 +10,7 @@ const Header = () => {
   return (
     <>
       <header className="container">
-        <Link href="/">
+        <Link legacyBehavior href="/">
           <a className="logo">
             <Logo />
           </a>
