@@ -3,7 +3,7 @@ import { Fragment } from "react";
 const projects = [
   {
     title: "Moons That Belong",
-    year: "2024 - now",
+    year: "2023 - now",
     access: "Closed Source",
     link: "https://store.steampowered.com/app/2649280/Moons_That_Belong/",
     desc: "A unique 2D space strategy game that challenges your tactical prowess.",
