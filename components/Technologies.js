@@ -2,6 +2,7 @@ const Technologies = () => (
   <ul>
     <li>Git, Mercurial, SVN, Perforce</li>
     <li>Linux admin, SSH, *nix shells</li>
+    <li>Proxmox, KVM, Docker, pfsense</li>
     <li>Windows admin, PowerShell</li>
     <li>C, C++, Go, C#, Java</li>
     <li>Python, JavaScript, PHP7, SQL</li>

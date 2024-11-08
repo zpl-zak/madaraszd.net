@@ -10,6 +10,8 @@ div, body, html {
 
 .top-logo {
     display: inline;
+    width: 280px;
+    height: 120px;
 }
 
 .top-contact {
