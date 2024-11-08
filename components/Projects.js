@@ -2,21 +2,21 @@ import { Fragment } from "react";
 
 const projects = [
   {
+    title: "Moons That Belong",
+    year: "2024 - now",
+    access: "Closed Source",
+    link: "https://store.steampowered.com/app/2649280/Moons_That_Belong/",
+    desc: "A unique 2D space strategy game that challenges your tactical prowess.",
+    uses: "c99, v4k, enet, glsl, opengl, ark",
+    role: "Project Lead",
+  },
+  {
     title: "V4K",
     year: "2023 - now",
     access: "Closed Source",
     link: "https://v4k.dev",
     desc: "Multimedia workbench for prototyping and planning.",
     uses: "c, glsl, opengl, assimp, zpl",
-    role: "Project Lead",
-  },
-  {
-    title: 'ŽSR Tester',
-    year: "2023",
-    access: "Open Source",
-    link: "https://github.com/zpl-zak/zsr-tester",
-    desc: "Online quiz written for train driver applicants.",
-    uses: "js, react, nextjs, nodejs",
     role: "Project Lead",
   },
   {
